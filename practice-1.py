@@ -70,3 +70,6 @@ dankFood = [
 ]
 
 
+for k in dankFood:
+	if k.get('id') == "0001":
+		print (k.get("topping"))
