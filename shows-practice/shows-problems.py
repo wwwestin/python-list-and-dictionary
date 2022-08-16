@@ -46,10 +46,10 @@ for k in show_data:
 # print all theater ids for shows that are Original Productions
 # hint: all ids are four numbers 
 
-# for k in show_data:
-#     theater_id = k.get("theatre_id", "")
+for k in show_data:
+    theater_id = k.get("theatre_id", "")
    
-#     if k.get("Production Type") == "Original Production" and theater_id:
-#         print (theater_id[-4:])
-#     else:
-#         continue
+    if k.get("Production Type") == "Original Production" and theater_id:
+        print (theater_id[-4:])
+    else:
+        continue
